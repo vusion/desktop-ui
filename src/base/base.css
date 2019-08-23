@@ -1,0 +1,6 @@
+@import 'proto-ui.vusion/src/base/base.css';
+
+body {
+    font: 12px/1.6666 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+    color: $color-base;
+}

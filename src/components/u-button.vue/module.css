@@ -1,0 +1,47 @@
+@extend;
+
+.root {
+    border-radius: $border-radius-base;
+}
+
+.root:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.root[disabled] {
+    box-shadow: none;
+}
+
+/**
+ * Color extends
+ */
+
+.root[color="primary"] {
+    background: $brand-primary;
+    color: white;
+    border: none;
+    line-height: calc($height-base);
+}
+
+.root[color="primary"]:hover {
+    background: #2589ff;
+}
+
+.root[color="primary"][disabled] {
+    background: #d9d9d9;
+}
+
+/**
+ * Size extends
+ */
+
+.root[size="large"] {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.root[square] {
+    width: $height-base;
+    padding: 0;
+}

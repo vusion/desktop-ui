@@ -1,0 +1,20 @@
+@extend;
+
+.root {}
+
+.root:hover {
+    background: #f5f7fa;
+}
+
+.root[focused] {
+    background: #f5f7fa;
+}
+
+.root[selected] {
+    background: $brand-primary;
+}
+
+.root[disabled] {
+    color: #ccc;
+    background: none;
+}

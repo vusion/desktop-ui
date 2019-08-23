@@ -1,0 +1,8 @@
+@extend;
+
+.root:after {
+    icon-font: url('../../assets/angle-down.svg');
+    font-size: 18px;
+    right: 6px;
+    top: 0;
+}

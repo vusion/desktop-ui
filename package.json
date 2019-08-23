@@ -1,0 +1,51 @@
+{
+  "name": "desktop-ui.vusion",
+  "description": "Vusion Desktop UI",
+  "version": "0.4.12",
+  "author": "Rainfore <rainforest92@126.com>",
+  "scripts": {
+    "build": "vue-cli-service library-build",
+    "build-raw": "vue-cli-service library-build --mode raw",
+    "doc": "vue-cli-service doc",
+    "doc-build": "vue-cli-service doc-build",
+    "lint": "vue-cli-service lint",
+    "precommit": "node node_modules/vusion-hooks/precommit"
+  },
+  "repository": "vusion/desktop-ui",
+  "homepage": "https://vusion.github.io/desktop-ui",
+  "bugs": "https://github.com/vusion/desktop-ui/issues",
+  "license": "MIT",
+  "keywords": [
+    "vusion",
+    "desktop",
+    "ui",
+    "desktop-ui"
+  ],
+  "tags": [
+    "vusion",
+    "desktop",
+    "ui",
+    "desktop-ui"
+  ],
+  "dependencies": {
+    "proto-ui.vusion": "^0.4.12"
+  },
+  "devDependencies": {
+    "@vue/babel-preset-app": "^3.10.0",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "eslint": "^5.15.3",
+    "eslint-config-vusion": "^3.0.1",
+    "husky": "^0.14.3",
+    "stylelint": "^9.3.0",
+    "stylelint-config-vusion": "^1.1.2",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-vusion": "^0.5.6",
+    "vue-template-compiler": "^2.6.10",
+    "vusion-hooks": "^0.2.2",
+    "vusion-utils": "^0.4.4"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  }
+}
