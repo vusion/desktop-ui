@@ -1,0 +1,9 @@
+@extend;
+
+.root[size="small"] {
+    font-size: 10px;
+}
+
+.root[size="large"] {
+    font-size: 16px;
+}

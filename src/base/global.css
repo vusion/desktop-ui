@@ -1,6 +1,11 @@
 @import 'proto-ui.vusion/src/base/global.css';
 
 $brand-primary: #308fff;
+$brand-info: #36a3f7;
+$brand-success: #34bfa3;
+$brand-warning: #ffb518;
+$brand-error: #f34f69;
+
 $border-color-base: #c8cdd2;
 $color-base: #64686e;
 

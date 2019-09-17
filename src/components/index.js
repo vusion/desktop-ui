@@ -1,3 +1,4 @@
+export * from './u-text.vue';
 export * from './u-button.vue';
 export * from './u-select.vue';
 export * from './u-well.vue';

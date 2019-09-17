@@ -28,17 +28,83 @@
 }
 
 .root[color="primary"][disabled] {
-    background: #d9d9d9;
+    background: $brand-disabled-light;
+}
+
+.root[color="success"] {
+    background: $brand-success;
+    color: white;
+    border: none;
+    line-height: calc($height-base - 2px);
+    vertical-align: 1px;
+}
+
+.root[color="success"]:hover {
+    background: #2ca189;
+}
+
+.root[color="success"]:active {
+    background: #299781;
+}
+
+.root[color="success"][disabled] {
+    background: $brand-disabled-light;
+}
+
+.root[color="warning"] {
+    background: $brand-warning;
+    color: white;
+    border: none;
+    line-height: calc($height-base - 2px);
+    vertical-align: 1px;
+}
+
+.root[color="warning"]:hover {
+    background: #fbaa00;
+}
+
+.root[color="warning"]:active {
+    background: #eea200;
+}
+
+.root[color="warning"][disabled] {
+    background: $brand-disabled-light;
+}
+
+.root[color="error"] {
+    background: $brand-error;
+    color: white;
+    border: none;
+    line-height: calc($height-base - 2px);
+    vertical-align: 1px;
+}
+
+.root[color="error"]:hover {
+    background: #f22d4e;
+}
+
+.root[color="error"]:active {
+    background: #f12143;
+}
+
+.root[color="error"][disabled] {
+    background: $brand-disabled-light;
 }
 
 /**
  * Size extends
  */
 
+.root[size="small"] {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
 .root[size="large"] {
-    height: 32px;
-    line-height: 32px;
-    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 16px;
 }
 
 .root[square] {

@@ -18,6 +18,9 @@
 ``` html
 <u-linear-layout>
     <u-button color="primary">立即创建</u-button>
+    <u-button color="success">立即创建</u-button>
+    <u-button color="warning">立即创建</u-button>
+    <u-button color="error">立即创建</u-button>
     <u-button color="primary" disabled>立即创建</u-button>
 </u-linear-layout>
 ```
@@ -26,8 +29,9 @@
 
 ``` html
 <u-linear-layout>
-    <u-button size="large" color="primary">保存</u-button>
-    <u-button color="primary">创建服务</u-button>
+    <u-button size="small" color="primary">Small</u-button>
+    <u-button color="primary">Normal</u-button>
+    <u-button size="large" color="primary">Large</u-button>
 </u-linear-layout>
 ```
 
@@ -35,13 +39,6 @@
 
 ``` html
 <u-button square icon="refresh"></u-button>
-```
-
-### 展示方式
-
-``` html
-<u-button display="block">块级按钮</u-button>
-<u-button display="inline">行内按钮（默认）</u-button>
 ```
 
 ### 图标
@@ -62,6 +59,15 @@
     <u-button href="https://vusion.github.io" target="_blank">href</u-button>
     <u-button to="/proto-ui/u-link">to</u-button>
     <u-button href="https://vusion.github.io" disabled>disabled</u-button>
+</u-linear-layout>
+```
+
+### 展示方式
+
+``` html
+<u-linear-layout direction="vertical" gap="small">
+    <u-button display="inline">行内按钮（默认）</u-button> 与文字对齐
+    <u-button display="block">块级按钮</u-button>
 </u-linear-layout>
 ```
 
