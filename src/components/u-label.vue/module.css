@@ -1,0 +1,6 @@
+@extend;
+
+.root {
+    padding: 0 4px;
+    font-size: 10px;
+}

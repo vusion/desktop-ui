@@ -1,0 +1,54 @@
+.root {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    height: $height-base;
+    line-height: calc($height-base - 2px);
+    font-size: $font-size-base;
+    text-align: center;
+    padding: 0 12px;
+    margin-right: -1px;
+    background: white;
+    color: #666;
+    border: 1px solid $border-color-base;
+}
+
+.root:hover {
+    border-color: $brand-primary-dark;
+}
+
+.root:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.root:first-child {
+    border-top-left-radius: $border-radius-base;
+    border-bottom-left-radius: $border-radius-base;
+}
+
+.root:last-child {
+    border-top-right-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
+}
+
+.root[selected] {
+    position: relative;
+    background: $brand-primary;
+    border-color: $brand-primary-dark;
+    color: white;
+    z-index: 2;
+}
+
+.root[disabled] {
+    position: relative;
+    z-index: 0;
+    color: #d6d6d6;
+    border-color: #c2ddfb;
+    cursor: not-allowed;
+}
+
+.root[selected][disabled] {
+    background: #c2ddfb;
+    color: white;
+}
