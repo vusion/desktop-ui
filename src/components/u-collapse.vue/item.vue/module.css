@@ -1,0 +1,10 @@
+@extend;
+
+.title {
+    margin-left: 24px;
+}
+
+.expander {
+    left: -2px;
+    right: auto;
+}

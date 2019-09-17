@@ -16,6 +16,7 @@
 
 .root:hover {
     border-color: $brand-primary-dark;
+    z-index: 2;
 }
 
 .root:active {
@@ -45,6 +46,7 @@
     z-index: 0;
     color: #d6d6d6;
     border-color: #c2ddfb;
+    box-shadow: none;
     cursor: not-allowed;
 }
 
